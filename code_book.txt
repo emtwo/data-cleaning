@@ -1,0 +1,93 @@
+There are 66 variables listed below that were measured for each subject and for each activity.
+
+1   Average tBodyAcc-mean()-X
+2   Average tBodyAcc-mean()-Y
+3   Average tBodyAcc-mean()-Z
+4   Average tBodyAcc-std()-X
+5   Average tBodyAcc-std()-Y
+6   Average tBodyAcc-std()-Z
+7   Average tGravityAcc-mean()-X
+8   Average tGravityAcc-mean()-Y
+9   Average tGravityAcc-mean()-Z
+10  Average tGravityAcc-std()-X
+11  Average tGravityAcc-std()-Y
+12  Average tGravityAcc-std()-Z
+13  Average tBodyAccJerk-mean()-X
+14  Average tBodyAccJerk-mean()-Y
+15  Average tBodyAccJerk-mean()-Z
+16  Average tBodyAccJerk-std()-X
+17  Average tBodyAccJerk-std()-Y
+18  Average tBodyAccJerk-std()-Z
+19  Average tBodyGyro-mean()-X
+20  Average tBodyGyro-mean()-Y
+21  Average tBodyGyro-mean()-Z
+22  Average tBodyGyro-std()-X
+23  Average tBodyGyro-std()-Y
+24  Average tBodyGyro-std()-Z
+25  Average tBodyGyroJerk-mean()-X
+26  Average tBodyGyroJerk-mean()-Y
+27  Average tBodyGyroJerk-mean()-Z
+28  Average tBodyGyroJerk-std()-X
+29  Average tBodyGyroJerk-std()-Y
+30  Average tBodyGyroJerk-std()-Z
+31  Average tBodyAccMag-mean()
+32  Average tBodyAccMag-std()
+33  Average tGravityAccMag-mean()
+34  Average tGravityAccMag-std()
+35  Average tBodyAccJerkMag-mean()
+36  Average tBodyAccJerkMag-std()
+37  Average tBodyGyroMag-mean()
+38  Average tBodyGyroMag-std()
+39  Average tBodyGyroJerkMag-mean()
+40  Average tBodyGyroJerkMag-std()
+41  Average fBodyAcc-mean()-X
+42  Average fBodyAcc-mean()-Y
+43  Average fBodyAcc-mean()-Z
+44  Average fBodyAcc-std()-X
+45  Average fBodyAcc-std()-Y
+46  Average fBodyAcc-std()-Z
+47  Average fBodyAccJerk-mean()-X
+48  Average fBodyAccJerk-mean()-Y
+49  Average fBodyAccJerk-mean()-Z
+50  Average fBodyAccJerk-std()-X
+51  Average fBodyAccJerk-std()-Y
+52  Average fBodyAccJerk-std()-Z
+53  Average fBodyGyro-mean()-X
+54  Average fBodyGyro-mean()-Y
+55  Average fBodyGyro-mean()-Z
+56  Average fBodyGyro-std()-X
+57  Average fBodyGyro-std()-Y
+58  Average fBodyGyro-std()-Z
+59  Average fBodyAccMag-mean()
+60  Average fBodyAccMag-std()
+61  Average fBodyBodyAccJerkMag-mean()
+62  Average fBodyBodyAccJerkMag-std()
+63  Average fBodyBodyGyroMag-mean()
+64  Average fBodyBodyGyroMag-std()
+65  Average fBodyBodyGyroJerkMag-mean()
+66  Average fBodyBodyGyroJerkMag-std()
+
+
+The variable names are self-explanatory and take the following format:
+1) They contain either "mean()" or "std()" in them indicating the measurement being represented 
+2) They are prepended with 'Average' indicating the variable is an average of either mean() or std()
+3) They are appended with "X", "Y", or "Z" denoting the direction of the signal, if one exists
+4) The signal itself is in the variable name and is one of the following 17:
+
+tBodyAcc
+tGravityAcc
+tBodyAccJerk
+tBodyGyro
+tBodyGyroJerk
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc
+fBodyAccJerk
+fBodyGyro
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
